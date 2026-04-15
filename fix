@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricky's Quick & Easy Mobile Detailing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00cfff, #0077ff);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #0077ff;
+      padding: 12px 22px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 8px;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #00cfff;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #161616;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #00cfff;
+    }
+
+    .about, .contact {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111;
+      color: #aaa;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ricky's Quick & Easy Mobile Detailing</h1>
+    <p>Professional mobile detailing brought right to your home or work.</p>
+    <a class="btn" href="tel:+15309459583">Call Now</a>
+    <a class="btn" href="sms:+15309459583">Text to Book</a>
+  </header>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Exterior Detail</h3>
+        <p>Hand wash, wheel cleaning, tire shine, windows, and a glossy finish.</p>
+        <p><strong>Starting at $80</strong></p>
+      </div>
+
+      <div class="card">
+        <h3>Interior Detail</h3>
+        <p>Vacuum, wipe-down, carpet cleaning, seats, and full interior refresh.</p>
+        <p><strong>Starting at $100</strong></p>
+      </div>
+
+      <div class="card">
+        <h3>Full Detail</h3>
+        <p>Complete inside and outside detail for a deep clean and fresh look.</p>
+        <p><strong>Starting at $160</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about">
+    <h2>About Us</h2>
+    <p>
+      Ricky's Quick & Easy Mobile Detailing makes it easy to keep your vehicle clean,
+      fresh, and looking its best. We come to you and provide quality detailing
+      with reliable service and attention to detail.
+    </p>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> (530) 945-9583</p>
+    <p><strong>Booking:</strong> Call or text anytime for availability</p>
+    <p><strong>Service:</strong> Mobile detailing at your location</p>
+  </section>
+
+  <footer>
+    © 2026 Ricky's Quick & Easy Mobile Detailing. All rights reserved.
+  </footer>
+
+</body>
+</html>
